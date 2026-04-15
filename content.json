@@ -1,0 +1,955 @@
+{
+  "home": {
+    "h1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "h2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Dienstleistungen und Preise"
+    },
+    "h3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Aktentasche"
+    },
+    "h4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "h5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "h6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "m1": {
+      "ru": "Mallorca luxury",
+      "en": "Lujo en Mallorca",
+      "pl": "Luxus auf Mallorca"
+    },
+    "m2": {
+      "ru": "MAKE UP",
+      "en": "CONSTITUIR",
+      "pl": "BILDEN"
+    },
+    "m3": {
+      "ru": "Luxury bridal makeup and hair",
+      "en": "Maquillaje y peinado de novia de lujo",
+      "pl": "Luxuriöses Braut-Make-up und Frisur"
+    },
+    "m4": {
+      "ru": "  for high end destination weddings",
+      "en": "para bodas de destino de alta gama",
+      "pl": "für exklusive Hochzeiten im Ausland"
+    },
+    "m5": {
+      "ru": "and  hair",
+      "en": "y el cabello",
+      "pl": "und das Haar"
+    },
+    "m6": {
+      "ru": "artist",
+      "en": "artista",
+      "pl": "Künstler"
+    },
+    "m7": {
+      "ru": "and exclusive beauty projects.",
+      "en": "y proyectos de belleza exclusivos.",
+      "pl": "und exklusive Schönheitsprojekte"
+    },
+    "m8": {
+      "ru": "Enquire now",
+      "en": "Pregunte ahora",
+      "pl": "Jetzt fragen"
+    },
+    "m9": {
+      "ru": "Let’s create a flawless, long-lasting look.",
+      "en": "Creemos una apariencia impecable y duradera.",
+      "pl": "Wir kreieren ein makelloses und dauerhaftes Erscheinungsbild."
+    },
+    "m10": {
+      "ru": "12+ years of experience in  destination weddings, editorial, creative shoots, brand campaigns, and celebrity clients.",
+      "en": "Más de 12 años de experiencia en bodas de destino, editoriales, sesiones creativas, campañas de marca y clientes famosos.",
+      "pl": "Mehr als 12 Jahre Erfahrung in den Bereichen Destination Weddings, Editorials, Kreativ-Shootings, Markenkampagnen und Betreuung von Prominenten."
+    },
+    "m11": {
+      "ru": "Trusted by brides and teams from across the USA, throughout Europe, and worldwide, all on the island of Mallorca.",
+      "en": "De confianza para novias y equipos de todo Estados Unidos, de toda Europa y del mundo entero, todo en la isla de Mallorca.",
+      "pl": "Von Bräuten und Teams aus den gesamten Vereinigten Staaten, ganz Europa und der ganzen Welt – alle auf der Insel Mallorca – wird uns vertraut."
+    },
+    "b1": {
+      "ru": "Let’s Create ㅤa Look Thatㅤ Feels Like You",
+      "en": "Creemos un look que te haga sentir como tú",
+      "pl": "Lass uns einen Look kreieren, mit dem du dich wohlfühlst"
+    },
+    "b2": {
+      "ru": "Fill out the form",
+      "en": "Rellene el formulario",
+      "pl": "Füllen Sie das Formular aus"
+    },
+    "b3": {
+      "ru": "Enquire now",
+      "en": "Pregunte ahora",
+      "pl": "Jetzt fragen"
+    },
+    "f1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "f2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Leistungen & Preise"
+    },
+    "f3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Portfolio"
+    },
+    "f4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "f5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "f6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f7": {
+      "ru": "Enquire now",
+      "en": "Pregunte ahora",
+      "pl": "Jetzt fragen"
+    },
+    "f8": {
+      "ru": "Privacy Policy",
+      "en": "política de privacidad",
+      "pl": "Datenschutzrichtlinie"
+    },
+    "f9": {
+      "ru": "Offer contract",
+      "en": "Contrato de oferta",
+      "pl": "Angebotsvertrag"
+    },
+    "f10": {
+      "ru": "©Mallorca luxury makeup and hair artist",
+      "en": "© Mallorca maquilladora y peluquera de lujo.",
+      "pl": "© Mallorca Luxus-Make-up-Artist und Friseur"
+    }
+  },
+
+  "about": {
+    "h1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "h2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Dienstleistungen und Preise"
+    },
+    "h3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Aktentasche"
+    },
+    "h4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "h5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "h6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "f2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Leistungen & Preise"
+    },
+    "f3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Portfolio"
+    },
+    "f4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "f5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "f6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f7": {
+      "ru": "Enquire now",
+      "en": "Pregunte ahora",
+      "pl": "Jetzt fragen"
+    },
+    "f8": {
+      "ru": "Privacy Policy",
+      "en": "política de privacidad",
+      "pl": "Datenschutzrichtlinie"
+    },
+    "f9": {
+      "ru": "Offer contract",
+      "en": "Contrato de oferta",
+      "pl": "Angebotsvertrag"
+    },
+    "f10": {
+      "ru": "©Mallorca luxury makeup and hair artist",
+      "en": "© Mallorca maquilladora y peluquera de lujo.",
+      "pl": "© Mallorca Luxus-Make-up-Artist und Friseur"
+    }
+  },
+
+  "portfolio": {
+    "h1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "h2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Dienstleistungen und Preise"
+    },
+    "h3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Aktentasche"
+    },
+    "h4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "h5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "h6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "f2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Leistungen & Preise"
+    },
+    "f3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Portfolio"
+    },
+    "f4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "f5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "f6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f7": {
+      "ru": "Enquire now",
+      "en": "Pregunte ahora",
+      "pl": "Jetzt fragen"
+    },
+    "f8": {
+      "ru": "Privacy Policy",
+      "en": "política de privacidad",
+      "pl": "Datenschutzrichtlinie"
+    },
+    "f9": {
+      "ru": "Offer contract",
+      "en": "Contrato de oferta",
+      "pl": "Angebotsvertrag"
+    },
+    "f10": {
+      "ru": "©Mallorca luxury makeup and hair artist",
+      "en": "© Mallorca maquilladora y peluquera de lujo.",
+      "pl": "© Mallorca Luxus-Make-up-Artist und Friseur"
+    }
+  },
+
+  "service": {
+    "h1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "h2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Dienstleistungen und Preise"
+    },
+    "h3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Aktentasche"
+    },
+    "h4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "h5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "h6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f1": {
+      "ru": "Home",
+      "en": "Hogar",
+      "pl": "Heim"
+    },
+    "f2": {
+      "ru": "Services & Pricing",
+      "en": "Servicios y precios",
+      "pl": "Leistungen & Preise"
+    },
+    "f3": {
+      "ru": "Portfolio",
+      "en": "Cartera",
+      "pl": "Portfolio"
+    },
+    "f4": {
+      "ru": "Reviews",
+      "en": "Reseñas",
+      "pl": "Rezensionen"
+    },
+    "f5": {
+      "ru": "Book Now / Contact",
+      "en": "Reservar ahora / Contacto",
+      "pl": "Jetzt buchen / Kontakt"
+    },
+    "f6": {
+      "ru": "About me",
+      "en": "Acerca de mí",
+      "pl": "Über mich"
+    },
+    "f7": {
+      "ru": "Enquire now",
+      "en": "Pregunte ahora",
+      "pl": "Jetzt fragen"
+    },
+    "f8": {
+      "ru": "Privacy Policy",
+      "en": "política de privacidad",
+      "pl": "Datenschutzrichtlinie"
+    },
+    "f9": {
+      "ru": "Offer contract",
+      "en": "Contrato de oferta",
+      "pl": "Angebotsvertrag"
+    },
+    "f10": {
+      "ru": "©Mallorca luxury makeup and hair artist",
+      "en": "© Mallorca maquilladora y peluquera de lujo.",
+      "pl": "© Mallorca Luxus-Make-up-Artist und Friseur"
+    },
+    "s1": {
+      "ru": "Service ",
+      "en": "#",
+      "pl": "#"
+    },
+    "s2": {
+      "ru": "packages",
+      "en": "#",
+      "pl": "#"
+    },
+    "s3": {
+      "ru": "Price",
+      "en": "#",
+      "pl": "#"
+    },
+    "s4": {
+      "ru": "2026ㅤ - 2027",
+      "en": "#",
+      "pl": "#"
+    },
+    "p01": {
+      "ru": "Price 2027",
+      "en": "#",
+      "pl": "#"
+    },
+    "w01": {
+      "ru": "Service in salon ( Palma)",
+      "en": "#",
+      "pl": "#"
+    },
+    "q01": {
+      "ru": "Price 2026",
+      "en": "#",
+      "pl": "#"
+    },
+    "o01": {
+      "ru": "Outcall service",
+      "en": "#",
+      "pl": "#"
+    },
+    "p1": {
+      "ru": "Bride",
+      "en": "#",
+      "pl": "#"
+    },
+    "p2": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "p3": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "p4": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "p5": {
+      "ru": "200",
+      "en": "#",
+      "pl": "#"
+    },
+    "p6": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "p7": {
+      "ru": "400",
+      "en": "#",
+      "pl": "#"
+    },
+    "p8": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "p9": {
+      "ru": "Guests/ bridesmaids",
+      "en": "#",
+      "pl": "#"
+    },
+    "p10": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "p11": {
+      "ru": "150",
+      "en": "#",
+      "pl": "#"
+    },
+    "p12": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "p13": {
+      "ru": "100",
+      "en": "#",
+      "pl": "#"
+    },
+    "p14": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "p15": {
+      "ru": "220",
+      "en": "#",
+      "pl": "#"
+    },
+    "p16": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "p17": {
+      "ru": "Trial (for bride)",
+      "en": "#",
+      "pl": "#"
+    },
+    "p18": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "p19": {
+      "ru": "200",
+      "en": "#",
+      "pl": "#"
+    },
+    "p20": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "p21": {
+      "ru": "200",
+      "en": "#",
+      "pl": "#"
+    },
+    "p22": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "p23": {
+      "ru": "350",
+      "en": "#",
+      "pl": "#"
+    },
+    "p24": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "o1": {
+      "ru": "Bride",
+      "en": "#",
+      "pl": "#"
+    },
+    "o2": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "o3": {
+      "ru": "200",
+      "en": "#",
+      "pl": "#"
+    },
+    "o4": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "o5": {
+      "ru": "150",
+      "en": "#",
+      "pl": "#"
+    },
+    "o6": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "o7": {
+      "ru": "300",
+      "en": "#",
+      "pl": "#"
+    },
+    "o8": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "o9": {
+      "ru": "Guests/ bridesmaids",
+      "en": "#",
+      "pl": "#"
+    },
+    "o10": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "o11": {
+      "ru": "150",
+      "en": "#",
+      "pl": "#"
+    },
+    "o12": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "o13": {
+      "ru": "100",
+      "en": "#",
+      "pl": "#"
+    },
+    "o14": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "o15": {
+      "ru": "230",
+      "en": "#",
+      "pl": "#"
+    },
+    "o16": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "o17": {
+      "ru": "Trial (for bride)",
+      "en": "#",
+      "pl": "#"
+    },
+    "o18": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "o19": {
+      "ru": "150",
+      "en": "#",
+      "pl": "#"
+    },
+    "o20": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "o21": {
+      "ru": "100",
+      "en": "#",
+      "pl": "#"
+    },
+    "o22": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "o23": {
+      "ru": "230",
+      "en": "#",
+      "pl": "#"
+    },
+    "o24": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "o25": {
+      "ru": "*Transportation is charged separately depending on the distance from Palma",
+      "en": "#",
+      "pl": "#"
+    },
+    "o26": {
+      "ru": "Eyelashes included in the price",
+      "en": "#",
+      "pl": "#"
+    },
+    "o27": {
+      "ru": "Enquire now",
+      "en": "#",
+      "pl": "#"
+    },
+
+    "w1": {
+      "ru": "Bride",
+      "en": "#",
+      "pl": "#"
+    },
+    "w2": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "w3": {
+      "ru": "300",
+      "en": "#",
+      "pl": "#"
+    },
+    "w4": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "w5": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "w6": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "w7": {
+      "ru": "500",
+      "en": "#",
+      "pl": "#"
+    },
+    "w8": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "w9": {
+      "ru": "Guests/ bridesmaids",
+      "en": "#",
+      "pl": "#"
+    },
+    "w10": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "w11": {
+      "ru": "150",
+      "en": "#",
+      "pl": "#"
+    },
+    "w12": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "w13": {
+      "ru": "100 - 150",
+      "en": "#",
+      "pl": "#"
+    },
+    "w14": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "w15": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "w16": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "w17": {
+      "ru": "Trial (for bride)",
+      "en": "#",
+      "pl": "#"
+    },
+    "w18": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "w19": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "w20": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "w21": {
+      "ru": "200",
+      "en": "#",
+      "pl": "#"
+    },
+    "w22": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "w23": {
+      "ru": "450",
+      "en": "#",
+      "pl": "#"
+    },
+    "w24": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "w25": {
+      "ru": "*Transportation is charged separately depending on the distance from Palma",
+      "en": "#",
+      "pl": "#"
+    },
+    "w26": {
+      "ru": "Eyelashes included in the price *vat included",
+      "en": "#",
+      "pl": "#"
+    },
+    "w27": {
+      "ru": "Enquire now",
+      "en": "#",
+      "pl": "#"
+    },
+
+    "q1": {
+      "ru": "Bride",
+      "en": "#",
+      "pl": "#"
+    },
+    "q2": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "q3": {
+      "ru": "300",
+      "en": "#",
+      "pl": "#"
+    },
+    "q4": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "q5": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "q6": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "q7": {
+      "ru": "500",
+      "en": "#",
+      "pl": "#"
+    },
+    "q8": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "q9": {
+      "ru": "Guests/ bridesmaids",
+      "en": "#",
+      "pl": "#"
+    },
+    "q10": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "q11": {
+      "ru": "150",
+      "en": "#",
+      "pl": "#"
+    },
+    "q12": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "q13": {
+      "ru": "100 - 150",
+      "en": "#",
+      "pl": "#"
+    },
+    "q14": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "q15": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "q16": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    },
+    "q17": {
+      "ru": "Trial (for bride)",
+      "en": "#",
+      "pl": "#"
+    },
+    "q18": {
+      "ru": "Makeup",
+      "en": "#",
+      "pl": "#"
+    },
+    "q19": {
+      "ru": "250",
+      "en": "#",
+      "pl": "#"
+    },
+    "q20": {
+      "ru": "Hairstyle",
+      "en": "#",
+      "pl": "#"
+    },
+    "q21": {
+      "ru": "200",
+      "en": "#",
+      "pl": "#"
+    },
+    "q22": {
+      "ru": "Set",
+      "en": "#",
+      "pl": "#"
+    },
+    "q23": {
+      "ru": "450",
+      "en": "#",
+      "pl": "#"
+    },
+    "q24": {
+      "ru": "( makeup and hairstyle)",
+      "en": "#",
+      "pl": "#"
+    }
+  }
+}
