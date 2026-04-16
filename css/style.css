@@ -553,7 +553,27 @@ body {
   top: -100px;
   z-index: 2;
 }
+.status{
+  font-family: "Cormorant Garamond", serif;
+
+  position: absolute;
+  bottom: 222px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #0000008e;
+
+ left: 50%;
+  transform: translateX(-50%);
+   transition: all 0.4s ease;
+}
+
+
+
 @media (max-width: 768px) {
+  .status{
+  bottom: 30px;
+  font-size: 14px;
+}
   .line {
     transform: rotate(300deg);
     width: 140px;
@@ -566,8 +586,9 @@ body {
     top: 170px;
   }
   .mainsection {
-      position: relative;
-  overflow: hidden;
+        height: 920px;
+    position: relative;
+    overflow: hidden;
     padding: 0;
     flex-direction: column;
   }
@@ -598,7 +619,7 @@ body {
   .main-text5 {
     font-size: 66px;
     margin: auto;
-    margin-left:60px;
+    margin-left: 60px;
 
     transform: translateY(-23px);
   }
@@ -624,9 +645,7 @@ body {
     flex-direction: row;
     justify-content: center;
   }
-  .sectionsec {
-    display: none;
-  }
+
   .main-button button {
     padding: 25px 40px;
     font-size: 14px;
@@ -638,7 +657,7 @@ body {
     margin: 0;
     padding: 18px;
   }
-  .main-button img  {
+  .main-button img {
     width: 9px;
   }
   .main-button {
@@ -650,22 +669,20 @@ body {
     background-color: #fff;
     padding-top: 100px;
     padding-bottom: 40px;
-
   }
-  .main-right div{
+  .main-right div {
     width: 190px;
     height: 203px;
-
   }
-  .main-text8{
+  .main-text8 {
     transform: translateY(-53px);
 
     margin: auto;
-    color: #524D4D;
+    color: #524d4d;
     font-weight: 400;
   }
-  
-  .main-right p{
+
+  .main-right p {
     padding-top: 15px;
     font-size: 12px;
   }
@@ -779,6 +796,60 @@ body {
 }
 .form-form button:hover {
   transform: scale(1.08);
+}
+@media (max-width: 768px) {
+  .form {
+    justify-content: start;
+  }
+  .sec-cont {
+    border-radius: 30px;
+    height: 370px;
+  }
+  .sec-photo {
+    top: -100px;
+    width: 300px;
+  }
+  .sec-container {
+    padding: 0;
+  }
+  .form {
+    margin: 0;
+  }
+  .sec-text1 {
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 50%;
+    font-size: 23px;
+  }
+  .form-form {
+    margin-top: 40px;
+  }
+  .form-form input {
+    padding: 22px 32px;
+    margin-top: 14px;
+  }
+  .form-mark {
+    left: auto;
+    transform: none;
+    right: 80px;
+    top: -10px;
+    padding: 9px 7px;
+  }
+  .form-mark img {
+    width: 10px;
+  }
+  .sec-text2 {
+    font-size: 12px;
+    padding-top: 24px;
+  }
+  .form-form button {
+    margin-top: 20px;
+    padding: 22px 32px;
+    font-size: 14px;
+  }
+  .form-form button img {
+    width: 14px;
+  }
 }
 
 /* --------------
