@@ -553,7 +553,7 @@ body {
   top: -100px;
   z-index: 2;
 }
-.status{
+.status {
   font-family: "Cormorant Garamond", serif;
 
   position: absolute;
@@ -562,18 +562,16 @@ body {
   font-weight: 300;
   color: #0000008e;
 
- left: 50%;
+  left: 50%;
   transform: translateX(-50%);
-   transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-
-
 
 @media (max-width: 768px) {
-  .status{
-  bottom: 30px;
-  font-size: 14px;
-}
+  .status {
+    bottom: 30px;
+    font-size: 14px;
+  }
   .line {
     transform: rotate(300deg);
     width: 140px;
@@ -586,7 +584,7 @@ body {
     top: 170px;
   }
   .mainsection {
-        height: 920px;
+    height: 920px;
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -1771,13 +1769,14 @@ body {
     top: -220px;
     padding: 0;
     font-size: 65px;
+    padding: calc();
   }
   .about-title-cont {
     padding: 0;
     position: absolute;
-    top: -140px;
-    left: 60%;
-    transform: translateX(-50%);
+    top: -200px;
+    left: 50%;
+    transform: translateX(calc(-50% + 110px));
     gap: 5px;
     flex-direction: column;
     align-items: center;
@@ -1839,5 +1838,209 @@ body {
     top: -20px;
     font-size: 14px;
     padding: 9px;
+  }
+}
+
+.reviews-slider {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 20px;
+}
+
+.slider-track {
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  max-width: 1430px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  scroll-snap-align: start;
+}
+
+.column img {
+  border-radius: 22px;
+  object-fit: cover;
+  width: 324px;
+}
+
+.q-photo {
+  height: 570px;
+}
+
+.w-photo {
+  height: 495px;
+}
+.e-photo {
+  height: 492px;
+}
+.r-photo {
+  height: 516px;
+}
+.t-photo {
+  height: 426px;
+}
+.u-photo {
+  height: 516px;
+}
+.a-photo {
+  height: 516px;
+}
+.s-photo {
+  height: 303px;
+}
+.d-photo {
+  height: 486px;
+}
+.about-title-gall {
+  font-size: 97px;
+  font-family: "Cormorant Garamond", serif;
+  color: #000;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.z {
+  transform: translateY(-70px);
+  margin-left: 180px;
+}
+.x {
+  transform: translateY(-35px);
+  font-weight: 500;
+  margin-left: 50px;
+}
+.c {
+  color: #bc9a75;
+  margin-left: 26px;
+}
+.about-title-block {
+  position: relative;
+  max-width: 1259px;
+  height: 274px;
+  margin: auto;
+  margin-top: 100px;
+}
+.about-title-block-right {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  align-items: center;
+
+  position: absolute;
+  right: 60px;
+  top: 90px;
+}
+.about-title-block-right p {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 200;
+  letter-spacing: -0.04em;
+  line-height: 100%;
+}
+.mobile-social {
+  display: none;
+}
+.vect-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.vect-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.reviews-slider img {
+  pointer-events: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+}
+.reviews-slider img:hover{
+      transform: scale(1.03);
+}
+@media (max-width: 768px) {
+  .about-title-gall {
+    font-size: 47px;
+  }
+  .z {
+    transform: translateY(-30px);
+    margin-left: 56px;
+  }
+  .x {
+    transform: translateY(-15px);
+    margin-left: 26px;
+  }
+  .c {
+    color: #bc9a75;
+    margin-left: 16px;
+  }
+  .about-title-block {
+    height: 148px;
+  }
+  .about-title-block-right {
+    right: 20px;
+    top: 20px;
+    gap: 23px;
+  }
+  .about-title-block-right img {
+    width: 27px;
+    height: 27px;
+  }
+  .about-title-block-right p {
+    font-size: 10px;
+  }
+  .vect-left {
+    display: none;
+    left: 10px;
+  }
+  .vect-right {
+    display: none;
+    right: 10px;
+  }
+  .mobile {
+    display: block;
+  }
+  .column img {
+    width: 231px;
+  }
+
+  .q-photo {
+    height: 401px;
+  }
+
+  .w-photo {
+    height: 362px;
+  }
+  .e-photo {
+    height: 360px;
+  }
+  .r-photo {
+    height: 373px;
+  }
+  .t-photo {
+    height: 325px;
+  }
+  .u-photo {
+    height: 373px;
+  }
+  .a-photo {
+    height: 373px;
+  }
+  .s-photo {
+    height: 260px;
+  }
+  .d-photo {
+    height: 357px;
+  }
+  .column {
+    gap: 12px;
+  }
+  .slider-track {
+    gap: 12px;
+    margin-top: 61px;
   }
 }
