@@ -1,5 +1,5 @@
 async function loadData() {
-  const res = await fetch("/api/content");
+  const res = await fetch("./content.json");
   const data = await res.json();
 
   Object.keys(data).forEach(page => {
