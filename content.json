@@ -232,6 +232,86 @@
       "ru": "©Mallorca luxury makeup and hair artist",
       "en": "© Mallorca maquilladora y peluquera de lujo.",
       "pl": "© Mallorca Luxus-Make-up-Artist und Friseur"
+    },
+    "l1": {
+      "ru": "ABOUT",
+      "en": "ACERCA DE",
+      "pl": ""
+    },
+    "l2": {
+      "ru": "ME",
+      "en": "ME",
+      "pl": ""
+    },
+    "l3": {
+      "ru": "Luxury Bridal Makeup Artist Mallorca | Makeup Artist & Hair Stylist",
+      "en": "Maquilladora de novias de lujo en Mallorca | Maquilladora y peluquera",
+      "pl": ""
+    },
+    "l4": {
+      "ru": "I am a makeup artist originally from Ukraine, with over 12 years of experience in the beauty industry. I work as a Bridal Makeup Artist in Mallorca, as well as a makeup artist and hair stylist for luxury events, photoshoots, and special occasions.",
+      "en": "Soy una maquilladora originaria de Ucrania, con más de 12 años de experiencia en el sector de la belleza. Trabajo como maquilladora de novias en Mallorca, así como maquilladora y peluquera para eventos de lujo, sesiones fotográficas y ocasiones especiales.",
+      "pl": ""
+    },
+    "l5": {
+      "ru": "01",
+      "en": "01",
+      "pl": ""
+    },
+    "l6": {
+      "ru": "For more than 10 years, I have been working closely with brides in Mallorca and internationally, creating refined, elegant bridal looks for destination weddings. I have been part of many weddings throughout my career, and each one is a unique and meaningful experience. Weddings hold a very special place in my heart, and I truly love the atmosphere and emotions of the bridal day.",
+      "en": "Desde hace más de 10 años, trabajo en estrecha colaboración con novias de Mallorca y de todo el mundo, creando looks nupciales refinados y elegantes para bodas en destinos turísticos. A lo largo de mi carrera he formado parte de numerosas bodas, y cada una de ellas ha sido una experiencia única y significativa. Las bodas ocupan un lugar muy especial en mi corazón, y me encanta el ambiente y las emociones que se viven el día de la boda.",
+      "pl": ""
+    },
+    "l7": {
+      "ru": "My professional journey began over 12 years ago with my first professional beauty courses, followed by extensive online and offline education with leading makeup artists worldwide. In addition, I graduated from an art school, where I developed a strong understanding of color harmony, light, shadow, shapes, and proportions. This artistic background gives me a significant advantage as a makeup artist and allows me to create balanced, sophisticated, and visually refined looks.",
+      "en": "Mi trayectoria profesional comenzó hace más de 12 años con mis primeros cursos de estética profesional, a los que siguió una amplia formación, tanto en línea como presencial, con maquilladores de renombre de todo el mundo. Además, me gradué en una escuela de arte, donde adquirí un profundo conocimiento de la armonía del color, la luz, las sombras, las formas y las proporciones. Esta formación artística me proporciona una ventaja significativa como maquilladora y me permite crear looks equilibrados, sofisticados y visualmente refinados.",
+      "pl": ""
+    },
+    "l8": {
+      "ru": "I offer a highly personalized approach to every client. Whether it is a bridal look, a luxury event, or a professional photoshoot, I carefully adapt makeup and hair styling to enhance natural beauty and suit individual features. From soft, elegant luxury nude makeup to bold, glamorous, or fashion-forward styles — I can confidently create looks of any complexity, always with attention to detail, longevity, and comfort.",
+      "en": "Ofrezco un trato totalmente personalizado a cada cliente. Ya se trate de un look nupcial, un evento de lujo o una sesión fotográfica profesional, adapto cuidadosamente el maquillaje y el peinado para realzar la belleza natural y adaptarme a los rasgos de cada persona. Desde un maquillaje nude suave y elegante hasta estilos atrevidos, glamurosos o vanguardistas, puedo crear con total seguridad looks de cualquier nivel de complejidad, siempre prestando atención a los detalles, la durabilidad y la comodidad.",
+      "pl": ""
+    },
+    "l9": {
+      "ru": "One of my key strengths is working fast while maintaining high-end quality. Years of experience allow me to work efficiently, calmly, and professionally — an essential quality for bridal mornings, events, and time-sensitive shoots.",
+      "en": "Uno de mis principales puntos fuertes es trabajar con rapidez sin renunciar a la máxima calidad. Mis años de experiencia me permiten trabajar de forma eficiente, tranquila y profesional, una cualidad esencial para las mañanas de boda, los eventos y las sesiones fotográficas en las que el tiempo es un factor clave.",
+      "pl": ""
+    },
+    "l10": {
+      "ru": "I am punctual, responsible, and deeply passionate about working with women and highlighting their beauty. A bridal morning is not only about makeup and hair — it is also about trust, emotional support, and a peaceful atmosphere. I know how to calm, support, and create a sense of ease, ensuring you feel confident and relaxed.",
+      "en": "Soy puntual, responsable y me apasiona profundamente trabajar con mujeres y realzar su belleza. La mañana de la boda no se reduce solo al maquillaje y al peinado, sino que también se trata de confianza, apoyo emocional y un ambiente tranquilo. Sé cómo tranquilizarte, apoyarte y crear una sensación de tranquilidad, asegurándome de que te sientas segura y relajada.",
+      "pl": ""
+    },
+    "l11": {
+      "ru": "My goal is for you to feel 100% confident, radiant, and luxurious — whether you are a bride, a guest at an exclusive event, or in front of the camera at a photoshoot in Mallorca.",
+      "en": "Mi objetivo es que te sientas 100 % segura, radiante y elegante, ya seas una novia, una invitada a un evento exclusivo o te encuentres delante de la cámara en una sesión fotográfica en Mallorca.",
+      "pl": ""
+    },
+    "l12": {
+      "ru": "03",
+      "en": "03",
+      "pl": "03"
+    },
+    "l13": {
+      "ru": "What",
+      "en": "¿Qué?",
+      "pl": ""
+    },
+    "l14": {
+      "ru": "my clients",
+      "en": "mis clientes",
+      "pl": ""
+    },
+    "l15": {
+      "ru": "say about me",
+      "en": "lo que dicen de mí",
+      "pl": ""
+    },
+    "l16": {
+      "ru": "Reviews",
+      "en": "Opiniones",
+      "pl": ""
     }
   },
 
@@ -315,6 +395,26 @@
       "ru": "©Mallorca luxury makeup and hair artist",
       "en": "© Mallorca maquilladora y peluquera de lujo.",
       "pl": "© Mallorca Luxus-Make-up-Artist und Friseur"
+    },
+    "z1": {
+      "ru": "Mallorca luxury",
+      "en": "Lujo en Mallorca",
+      "pl": "Luxus auf Mallorca"
+    },
+    "z2": {
+      "ru": "Portfolio",
+      "en": "Portafolio",
+      "pl": "Portfolio"
+    },
+    "z3": {
+      "ru": "2026",
+      "en": "2026",
+      "pl": "2026"
+    },
+    "z4": {
+      "ru": "View all works",
+      "en": "Ver todas las obras",
+      "pl": "Alle Werke anzeigen"
     }
   },
 
@@ -401,555 +501,555 @@
     },
     "s1": {
       "ru": "Service ",
-      "en": "#",
-      "pl": "#"
+      "en": "Servicio",
+      "pl": "Service"
     },
     "s2": {
       "ru": "packages",
-      "en": "#",
-      "pl": "#"
+      "en": "paquetes",
+      "pl": "pakete"
     },
     "s3": {
       "ru": "Price",
-      "en": "#",
-      "pl": "#"
+      "en": "Precio",
+      "pl": "Preis"
     },
     "s4": {
       "ru": "2026ㅤ - 2027",
-      "en": "#",
-      "pl": "#"
+      "en": "2026ㅤ - 2027",
+      "pl": "2026ㅤ - 2027"
     },
     "p01": {
       "ru": "Price 2027",
-      "en": "#",
-      "pl": "#"
+      "en": "Precio 2027",
+      "pl": "Preis 2027"
     },
     "w01": {
-      "ru": "Service in salon ( Palma)",
-      "en": "#",
-      "pl": "#"
+      "ru": "Service in salon (Palma)",
+      "en": "Servicio en salón (Palma)",
+      "pl": "Service im Salon (Palma)"
     },
     "q01": {
       "ru": "Price 2026",
-      "en": "#",
-      "pl": "#"
+      "en": "Precio 2026",
+      "pl": "Preis 2026"
     },
     "o01": {
       "ru": "Outcall service",
-      "en": "#",
-      "pl": "#"
+      "en": "Servicio a domicilio",
+      "pl": "Hausbesuchsdienst"
     },
     "p1": {
       "ru": "Bride",
-      "en": "#",
-      "pl": "#"
+      "en": "Novia",
+      "pl": "Braut"
     },
     "p2": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "p3": {
       "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "en": "250",
+      "pl": "250"
     },
     "p4": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "p5": {
       "ru": "200",
-      "en": "#",
-      "pl": "#"
+      "en": "200",
+      "pl": "200 "
     },
     "p6": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "p7": {
       "ru": "400",
-      "en": "#",
-      "pl": "#"
+      "en": "400",
+      "pl": "400"
     },
     "p8": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "p9": {
       "ru": "Guests/ bridesmaids",
-      "en": "#",
-      "pl": "#"
+      "en": "Invitadas/ Honor ",
+      "pl": "Gäste/ㅤㅤBrautjungfern"
     },
     "p10": {
-      "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+     "ru": "Makeup",
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "p11": {
       "ru": "150",
-      "en": "#",
-      "pl": "#"
+      "en": "150",
+      "pl": "150#"
     },
     "p12": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "p13": {
       "ru": "100",
-      "en": "#",
-      "pl": "#"
+      "en": "100",
+      "pl": "100"
     },
     "p14": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "p15": {
       "ru": "220",
-      "en": "#",
-      "pl": "#"
+      "en": "220",
+      "pl": "220"
     },
     "p16": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "p17": {
       "ru": "Trial (for bride)",
-      "en": "#",
-      "pl": "#"
+      "en": "Prueba (para la novia)",
+      "pl": "Anprobe (für die Braut)"
     },
     "p18": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "p19": {
       "ru": "200",
-      "en": "#",
-      "pl": "#"
+      "en": "200",
+      "pl": "200"
     },
     "p20": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "p21": {
       "ru": "200",
-      "en": "#",
-      "pl": "#"
+      "en": "200",
+      "pl": "200"
     },
     "p22": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "p23": {
       "ru": "350",
-      "en": "#",
-      "pl": "#"
+      "en": "350",
+      "pl": "350"
     },
     "p24": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "o1": {
       "ru": "Bride",
-      "en": "#",
-      "pl": "#"
+      "en": "Novia",
+      "pl": "Braut"
     },
     "o2": {
-      "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+     "ru": "Makeup",
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "o3": {
       "ru": "200",
-      "en": "#",
-      "pl": "#"
+      "en": "200",
+      "pl": "200"
     },
     "o4": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "o5": {
       "ru": "150",
-      "en": "#",
-      "pl": "#"
+      "en": "150",
+      "pl": "150"
     },
     "o6": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "o7": {
       "ru": "300",
-      "en": "#",
-      "pl": "#"
+      "en": "300",
+      "pl": "300"
     },
     "o8": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "o9": {
       "ru": "Guests/ bridesmaids",
-      "en": "#",
-      "pl": "#"
+      "en": "Invitadas/ Honor ",
+      "pl": "Gäste/ㅤㅤBrautjungfern"
     },
     "o10": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "o11": {
       "ru": "150",
-      "en": "#",
-      "pl": "#"
+      "en": "150",
+      "pl": "150"
     },
     "o12": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "o13": {
       "ru": "100",
-      "en": "#",
-      "pl": "#"
+      "en": "100",
+      "pl": "100"
     },
     "o14": {
-      "ru": "Set",
-      "en": "#",
-      "pl": "#"
+     "ru": "Set",
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "o15": {
       "ru": "230",
-      "en": "#",
-      "pl": "#"
+      "en": "230",
+      "pl": "230"
     },
     "o16": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "o17": {
       "ru": "Trial (for bride)",
-      "en": "#",
-      "pl": "#"
+      "en": "Prueba (para la novia)",
+      "pl": "Anprobe (für die Braut)"
     },
     "o18": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "o19": {
       "ru": "150",
-      "en": "#",
-      "pl": "#"
+      "en": "150",
+      "pl": "150"
     },
     "o20": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "o21": {
       "ru": "100",
-      "en": "#",
-      "pl": "#"
+      "en": "100",
+      "pl": "100"
     },
     "o22": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "o23": {
       "ru": "230",
-      "en": "#",
-      "pl": "#"
+      "en": "230",
+      "pl": "230"
     },
     "o24": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "o25": {
       "ru": "*Transportation is charged separately depending on the distance from Palma",
-      "en": "#",
-      "pl": "#"
+      "en": "El transporte se cobra aparte en función de la distancia desde Palma",
+      "pl": "Die Transportkosten werden je nach Entfernung von Palma separat berechnet"
     },
     "o26": {
       "ru": "Eyelashes included in the price",
-      "en": "#",
-      "pl": "#"
+      "en": "Pestañas incluidas en el precio",
+      "pl": "Wimpern sind im Preis inbegriffen"
     },
     "o27": {
       "ru": "Enquire now",
-      "en": "#",
-      "pl": "#"
+      "en": "Enquire now",
+      "pl": "Jetzt anfragen"
     },
 
     "w1": {
       "ru": "Bride",
-      "en": "#",
-      "pl": "#"
+      "en": "Novia",
+      "pl": "Braut"
     },
     "w2": {
-      "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+     "ru": "Makeup",
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "w3": {
-      "ru": "300",
-      "en": "#",
-      "pl": "#"
+      "ru": "250",
+      "en": "250",
+      "pl": "250"
     },
     "w4": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "w5": {
-      "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "ru": "200",
+      "en": "200",
+      "pl": "200"
     },
     "w6": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "w7": {
-      "ru": "500",
-      "en": "#",
-      "pl": "#"
+      "ru": "430",
+      "en": "430",
+      "pl": "430"
     },
     "w8": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "w9": {
       "ru": "Guests/ bridesmaids",
-      "en": "#",
-      "pl": "#"
+      "en": "Invitadas/ Honor ",
+      "pl": "Gäste/ㅤㅤBrautjungfern"
     },
     "w10": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "w11": {
       "ru": "150",
-      "en": "#",
-      "pl": "#"
+      "en": "150",
+      "pl": "150"
     },
     "w12": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "w13": {
       "ru": "100 - 150",
-      "en": "#",
-      "pl": "#"
+      "en": "100 - 150",
+      "pl": "100 - 150"
     },
     "w14": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "w15": {
-      "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "ru": "230",
+      "en": "230",
+      "pl": "230"
     },
     "w16": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "w17": {
       "ru": "Trial (for bride)",
-      "en": "#",
-      "pl": "#"
+      "en": "Prueba (para la novia)",
+      "pl": "Anprobe (für die Braut)"
     },
     "w18": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "w19": {
-      "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "ru": "200",
+      "en": "200",
+      "pl": "200"
     },
     "w20": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "w21": {
-      "ru": "200",
-      "en": "#",
-      "pl": "#"
+      "ru": "150",
+      "en": "150",
+      "pl": "150"
     },
     "w22": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "w23": {
-      "ru": "450",
-      "en": "#",
-      "pl": "#"
+      "ru": "350",
+      "en": "350",
+      "pl": "350"
     },
     "w24": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "w25": {
       "ru": "*Transportation is charged separately depending on the distance from Palma",
-      "en": "#",
-      "pl": "#"
+      "en": "*El transporte se cobra aparte en función de la distancia desde Palma",
+      "pl": "*Die Transportkosten werden je nach Entfernung von Palma separat berechnet"
     },
     "w26": {
       "ru": "Eyelashes included in the price *vat included",
-      "en": "#",
-      "pl": "#"
+      "en": "Pestañas incluidas en el precio *IVA incluido",
+      "pl": "Wimpern im Preis inbegriffen *inkl. MwSt."
     },
     "w27": {
       "ru": "Enquire now",
-      "en": "#",
-      "pl": "#"
+      "en": "Enquire now",
+      "pl": "Jetzt anfragen"
     },
 
     "q1": {
       "ru": "Bride",
-      "en": "#",
-      "pl": "#"
+      "en": "Novia",
+      "pl": "Braut"
     },
     "q2": {
-      "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+     "ru": "Makeup",
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "q3": {
       "ru": "300",
-      "en": "#",
-      "pl": "#"
+      "en": "300",
+      "pl": "300"
     },
     "q4": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "q5": {
       "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "en": "250",
+      "pl": "250"
     },
     "q6": {
       "ru": "Set",
-      "en": "#",
-      "pl": "#"
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "q7": {
       "ru": "500",
-      "en": "#",
-      "pl": "#"
+      "en": "500",
+      "pl": "500"
     },
     "q8": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "q9": {
       "ru": "Guests/ bridesmaids",
-      "en": "#",
-      "pl": "#"
+      "en": "Invitadas/ Honor ",
+      "pl": "Gäste/ㅤㅤBrautjungfern"
     },
     "q10": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "q11": {
       "ru": "150",
-      "en": "#",
-      "pl": "#"
+      "en": "150",
+      "pl": "150"
     },
     "q12": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "q13": {
       "ru": "100 - 150",
-      "en": "#",
-      "pl": "#"
+      "en": "100 - 150",
+      "pl": "100 - 150"
     },
     "q14": {
-      "ru": "Set",
-      "en": "#",
-      "pl": "#"
+     "ru": "Set",
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "q15": {
       "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "en": "250",
+      "pl": "250"
     },
     "q16": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     },
     "q17": {
       "ru": "Trial (for bride)",
-      "en": "#",
-      "pl": "#"
+      "en": "Prueba (para la novia)",
+      "pl": "Anprobe (für die Braut)"
     },
     "q18": {
       "ru": "Makeup",
-      "en": "#",
-      "pl": "#"
+      "en": "Maquillaje",
+      "pl": "Make-up"
     },
     "q19": {
       "ru": "250",
-      "en": "#",
-      "pl": "#"
+      "en": "250",
+      "pl": "250"
     },
     "q20": {
       "ru": "Hairstyle",
-      "en": "#",
-      "pl": "#"
+      "en": "Peinado",
+      "pl": "Frisur"
     },
     "q21": {
       "ru": "200",
-      "en": "#",
-      "pl": "#"
+      "en": "200",
+      "pl": "200"
     },
     "q22": {
-      "ru": "Set",
-      "en": "#",
-      "pl": "#"
+     "ru": "Set",
+      "en": "Conjunto",
+      "pl": "Satz"
     },
     "q23": {
       "ru": "450",
-      "en": "#",
-      "pl": "#"
+      "en": "450",
+      "pl": "450"
     },
     "q24": {
-      "ru": "( makeup and hairstyle)",
-      "en": "#",
-      "pl": "#"
+      "ru": "(makeup and hairstyle)",
+      "en": "(maquillaje y peinado)",
+      "pl": "(Make-up und Frisur)"
     }
   }
 }

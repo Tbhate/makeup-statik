@@ -1205,6 +1205,13 @@ body {
 }
 
 @media (max-width: 768px) {
+  .price-leftdown {
+   display: none;
+
+}
+.price-rightup {
+ display: none;
+}
   .firstcolona {
     border-right: 1px #bcbcbc solid;
     padding-right: 18px;
@@ -1214,7 +1221,7 @@ body {
   }
   .list {
     gap: 7px;
-    padding: 40px 30px 140px 30px;
+    padding: 40px 30px 160px 30px;
   }
   .list h4 {
     font-size: 22px;
@@ -1249,13 +1256,15 @@ body {
   }
   .price-title {
     margin: 40px;
-    height: 123px;
+
+    height: 83px;
   }
   .title1 {
     font-size: 50px;
   }
   .title2 {
     font-size: 50px;
+    padding-right: 10px;
     top: 40px;
   }
   .price {
@@ -1497,6 +1506,8 @@ body {
     top: 200px;
     overflow: hidden;
     padding: 40px 0;
+    padding-top: 120px;
+
   }
 
   .gallery-track {
