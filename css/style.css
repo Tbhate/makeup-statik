@@ -64,6 +64,63 @@ body {
   background-color: #f2f2f2;
   font-family: "Inter", sans-serif;
 }
+/* animattion */
+/* скрытое состояние */
+.anim {
+  opacity: 0;
+  transition: all 0.6s ease;
+  will-change: transform, opacity;
+}
+
+/* активное состояние */
+.anim.show {
+  opacity: 1;
+  transform: none;
+}
+
+
+/* 1. POP (появление + увеличение/уменьшение) */
+.anim-pop {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 2.6s ease;
+}
+
+.anim-pop.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* 2. SLIDE (выезд справа / слева) */
+.anim-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: all 2.6s ease;
+}
+
+.anim-right {
+  opacity: 0;
+  transform: translateX(80px);
+  transition: all 2.6s ease;
+}
+
+.anim-left.show,
+.anim-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* 3. FADE (просто из пустоты) */
+
+.anim-fade {
+  opacity: 0;
+  transition: opacity 4.6s ease;
+}
+
+.anim-fade.show {
+  opacity: 1;
+}
+
+/* animattion */
 .loader-wrap {
   position: fixed;
   inset: 0;
@@ -112,7 +169,7 @@ body {
   margin: auto;
   position: relative;
   z-index: 3;
-  padding: 42px 158px 0 158px;
+  padding: 42px 18px 0 28px;
 
   display: flex;
   justify-content: space-between;
@@ -207,8 +264,10 @@ body {
 }
 /* Кнопка какая  страница */
 .header-active {
-  padding: 16px 25px;
+  position: relative;
+  padding: 16px 15px;
   border: 1px solid #000000;
+  background-color: #F2F2F2;
   border-radius: 999px;
 }
 .burger {
@@ -217,6 +276,40 @@ body {
 .menu-modal {
   display: none;
 }
+.header-list li a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* обводка с отступом */
+.header-list li a::before {
+  content: "";
+  position: absolute;
+
+  top: -16px;
+  left: -15px;
+  right: -15px;
+  bottom: -16px;
+
+  border: 1px solid #000;
+  border-radius: 999px;
+
+  opacity: 0;
+  transform: scale(0.98);
+  transition: all 0.25s ease;
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* появление */
+.header-list li a:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
 @media (max-width: 768px) {
   .header-list {
     display: none;
