@@ -1871,7 +1871,6 @@ body {
     top: -220px;
     padding: 0;
     font-size: 65px;
-    padding: calc();
   }
   .about-title-cont {
     padding: 0;
@@ -1919,24 +1918,29 @@ body {
     background-color: #fefafa65;
   }
   .card1 {
+    
     z-index: 2;
     top: 200px;
     width: 340px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+  right: 0;
+    margin: auto;
+  
   }
   .card2 {
     top: 550px;
     bottom: auto;
     width: 380px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+  right: 0;
+    margin: auto;
   }
   .card3 {
     top: 1147px;
     bottom: auto;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+  right: 0;
+    margin: auto;
     width: 380px;
   }
   .card1-num {

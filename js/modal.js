@@ -10,9 +10,16 @@ closeBtn.addEventListener("click", () => {
   menuModal.classList.remove("active");
 });
 
-/* Закрытие по фону */
 menuModal.addEventListener("click", (e) => {
   if (e.target === menuModal) {
     menuModal.classList.remove("active");
   }
+});
+
+const menuLinks = menuModal.querySelectorAll("a");
+
+menuLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    menuModal.classList.remove("active");
+  });
 });
