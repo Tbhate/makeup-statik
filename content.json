@@ -58,7 +58,7 @@
     "m6": {
       "ru": "artist",
       "en": "artist",
-      "pl": "Künstl"
+      "pl": "Artist"
     },
     "m7": {
       "ru": "and exclusive beauty projects.",
@@ -301,12 +301,12 @@
     "l14": {
       "ru": "my clients",
       "en": "mis clientes",
-      "pl": "meine Kunden"
+      "pl": "Kunden"
     },
     "l15": {
       "ru": "say about me",
-      "en": "lo que dicen de mí",
-      "pl": "etwas über mich sagen"
+      "en": "Opiniones",
+      "pl": "Über mich"
     },
     "l16": {
       "ru": "Reviews",
