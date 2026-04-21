@@ -665,6 +665,7 @@ body {
     font-size: 14px;
   }
   .line {
+    padding-top: 1640px;
     transform: rotate(300deg);
     width: 140px;
     pointer-events: none;
@@ -676,7 +677,7 @@ body {
     top: 170px;
   }
   .mainsection {
-    height: 920px;
+    height: 730px;
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -698,9 +699,29 @@ body {
   }
   .main-text3 {
     position: absolute;
-    right: 0;
-    top: 250px;
+    right: 20px;
+    top: 280px;
     text-align: start;
+    background: linear-gradient(
+      90deg,
+      #000000,
+      #3a3a3a,
+      #524d4d,
+      #3a3a3a,
+      #000000
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmerText 3s linear infinite;
+  }
+  @keyframes shimmerText {
+    0% {
+      background-position: 200% center;
+    }
+    100% {
+      background-position: -200% center;
+    }
   }
   .main-text4 {
     display: none;
@@ -710,7 +731,6 @@ body {
     font-size: 66px;
     margin: auto;
     margin-left: 60px;
-
     transform: translateY(-23px);
   }
   .main-text6 {
@@ -721,10 +741,31 @@ body {
   }
   .main-text7 {
     position: absolute;
-    right: 24px;
-    top: 280px;
-    text-align: end;
+    width: 90px;
+    right: 7px;
+    top: 340px;
+    text-align: center;
     color: #8e8e8e;
+    background: linear-gradient(
+      90deg,
+      #524d4d,
+      #3a3a3a,
+      #000000,
+      #3a3a3a,
+      #524d4d
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmerText 3s linear infinite;
+  }
+  @keyframes shimmerText {
+    0% {
+      background-position: 200% center;
+    }
+    100% {
+      background-position: -200% center;
+    }
   }
   .main-left {
     width: 100%;
@@ -751,7 +792,7 @@ body {
     width: 9px;
   }
   .main-button {
-    transform: translateY(-23px);
+    transform: translateY(-100px);
     border-radius: 80px;
     margin-top: 300px;
     padding-left: 40px;
@@ -761,12 +802,16 @@ body {
     padding-bottom: 40px;
   }
   .main-right div {
-    width: 190px;
-    height: 203px;
+    transform: translateY(-40px);
+
+    width: 170px;
+    height: 160px;
+    padding: 10px;
+    border-radius: 20px;
   }
   .main-text8 {
-    transform: translateY(-53px);
-
+    transform: translateY(-129px);
+    font-size: 12px;
     margin: auto;
     color: #524d4d;
     font-weight: 400;
@@ -774,7 +819,7 @@ body {
 
   .main-right p {
     padding-top: 15px;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -912,7 +957,11 @@ body {
     font-size: 23px;
   }
   .form-form {
+    transform: translateY(-20px);
+    padding-top: 20px;
     margin-top: 40px;
+    background-color: #fff;
+    height: 200px;
   }
   .form-form input {
     padding: 22px 32px;
