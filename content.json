@@ -37,8 +37,8 @@
     },
     "m2": {
       "ru": "MAKE UP",
-      "en": "MAKE UP",
-      "pl": "MAKE UP"
+      "en": "CONSTI.",
+      "pl": "BILDEN"
     },
     "m3": {
       "ru": "Luxury bridal makeup and hair",
@@ -52,13 +52,13 @@
     },
     "m5": {
       "ru": "and  hair",
-      "en": "and  hair",
-      "pl": "and  hair"
+      "en": "cabello",
+      "pl": "u. d. Haar"
     },
     "m6": {
       "ru": "artist",
       "en": "artist",
-      "pl": "artist"
+      "pl": "Künstl"
     },
     "m7": {
       "ru": "and exclusive beauty projects.",
@@ -312,6 +312,11 @@
       "ru": "Reviews",
       "en": "Opiniones",
       "pl": "Bewertungen"
+    },
+    "ll1": {
+      "ru": "about me",
+      "en": "SOBRE MÍ",
+      "pl": "ÜBER ICH"
     }
   },
 
