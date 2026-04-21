@@ -1,10 +1,11 @@
 const track = document.querySelector(".gallery-track");
 const items = document.querySelectorAll(".gallery-item");
 const dotsWrap = document.querySelector(".gallery-dots");
+const slider = document.querySelector(".gallery-slider");
 
 let current = 2;
 
-/* dots */
+/* создаём dots */
 items.forEach((_, i) => {
   const dot = document.createElement("span");
 
@@ -18,34 +19,45 @@ items.forEach((_, i) => {
   dotsWrap.appendChild(dot);
 });
 
+/* update */
 function update() {
-
   items.forEach(el => el.classList.remove("active"));
   items[current].classList.add("active");
 
-  const dots = document.querySelectorAll(".gallery-dots span");
-  dots.forEach(d => d.classList.remove("active"));
+  const dots = dotsWrap.querySelectorAll("span");
+  dots.forEach(dot => dot.classList.remove("active"));
   dots[current].classList.add("active");
 
+  /* ждём когда width изменится */
+  setTimeout(centerActive, 300);
+}
+
+/* ТОЧНЫЙ центр */
+function centerActive() {
   const active = items[current];
 
-  const slider = document.querySelector(".gallery-slider");
-  const sliderCenter = slider.offsetWidth / 2;
+  const sliderWidth = slider.offsetWidth;
+  const itemWidth = active.offsetWidth;
 
-  const activeCenter =
-    active.offsetLeft + active.offsetWidth / 2;
+  const itemLeft = active.offsetLeft;
 
-  const offset = sliderCenter - activeCenter;
+  const offset =
+    (sliderWidth / 2) -
+    (itemLeft + itemWidth / 2);
 
   track.style.transform = `translateX(${offset}px)`;
 }
 
-/* click по фото */
-items.forEach((el, i) => {
-  el.addEventListener("click", () => {
+/* click image */
+items.forEach((item, i) => {
+  item.addEventListener("click", () => {
     current = i;
     update();
   });
 });
 
+/* resize */
+window.addEventListener("resize", centerActive);
+
+/* start */
 update();

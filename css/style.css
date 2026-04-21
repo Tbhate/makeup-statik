@@ -898,8 +898,8 @@ body {
     height: 370px;
   }
   .sec-photo {
-    top: -100px;
-    width: 300px;
+    top: -40px;
+    width: 220px;
   }
   .sec-container {
     padding: 0;
@@ -1325,11 +1325,13 @@ body {
     padding: 15px 45px;
     min-width: 0;
     top: -20px;
+    width: 170px;
   }
   .list-title2 {
     font-size: 12px;
     padding: 15px 45px;
     min-width: 0;
+    width: 170px;
     top: -20px;
   }
   .list-pretitle {
@@ -1377,7 +1379,7 @@ body {
   }
   .list-button-mobile {
     display: flex;
-    width: 203px;
+    width: 223px;
   }
   .list-button-mobile img {
     width: 15px;
@@ -1622,19 +1624,19 @@ body {
       border-radius: 30px;
     }
     .grid-track {
-      grid-template-columns: repeat(4, 50px);
-      grid-auto-rows: 108px;
+      grid-template-columns: repeat(4, 70px);
+      grid-auto-rows: 148px;
       gap: 4px;
     }
 
     .grid-track img {
-      width: 50px;
-      height: 108px;
+      width: 70px;
+      height: 148px;
     }
 
     .grid-gallery {
       margin: 0 auto;
-      max-width: 210px;
+      max-width: 290px;
       width: 100%;
       height: 420px;
     }
