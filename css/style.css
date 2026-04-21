@@ -48,10 +48,8 @@ select {
 }
 
 html:focus-within {
-  scroll-behavior: smooth;
 }
 html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -171,6 +169,7 @@ body {
   padding: 42px 18px 0 28px;
 
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .header-list {
@@ -1908,8 +1907,34 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-
+.about-title-mobile{
+  display: none;
+}
+.swipe{
+  display: none;
+}
+.swipe-text{
+  display: none;
+}
 @media (max-width: 768px) {
+  .swipe-text{
+    display: block;
+    position: absolute;
+    color: #909090;
+  top: 35px;
+  font-size: 14px;
+    left: 80%;
+    transform: translateX(-50%);
+  }
+  .swipe{
+  display: block;
+  position: absolute;
+  top: 30px;
+  width: 24px;
+  height: 24px;
+    left: 70%;
+    transform: translateX(-50%);
+}
   .about-button {
     padding: 27px 42px;
     background-color: #bc9a75;
@@ -1924,6 +1949,7 @@ body {
     font-size: 65px;
   }
   .about-title-mobile {
+    display: block;
     font-family: "Cormorant Garamond", serif;
     position: absolute;
     left: 50%;
@@ -2028,6 +2054,7 @@ body {
 }
 
 .reviews-slider {
+  position: relative;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding: 20px;

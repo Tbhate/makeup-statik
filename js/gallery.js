@@ -61,3 +61,34 @@ window.addEventListener("resize", centerActive);
 
 /* start */
 update();
+
+/* SWIPE MOBILE */
+let startX = 0;
+let endX = 0;
+
+slider.addEventListener("touchstart", e => {
+  startX = e.touches[0].clientX;
+});
+
+slider.addEventListener("touchmove", e => {
+  endX = e.touches[0].clientX;
+});
+
+slider.addEventListener("touchend", () => {
+  let diff = startX - endX;
+
+  if (diff > 50) {
+    current++;
+    if (current >= items.length) current = 0;
+    update();
+  }
+
+  if (diff < -50) {
+    current--;
+    if (current < 0) current = items.length - 1;
+    update();
+  }
+
+  startX = 0;
+  endX = 0;
+});
