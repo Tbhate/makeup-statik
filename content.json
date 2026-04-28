@@ -554,6 +554,16 @@
       "en": "Maquillaje",
       "pl": "Make-up"
     },
+    "pp2": {
+      "ru": "Outcall service",
+      "en": "Servicio a domicilio",
+      "pl": "Service vor Ort"
+    },
+    "pp3": {
+      "ru": "Service in the salon ( Palma )",
+      "en": "Servicio en el salón (Palma)",
+      "pl": "Service im Studio ( Palma )"
+    },
     "p3": {
       "ru": "250",
       "en": "250",
