@@ -5,34 +5,32 @@ async function loadContent(lang = "ru", page = "home") {
   document.querySelectorAll("[data-key]").forEach(element => {
     const key = element.getAttribute("data-key");
 
-    if (
-      data[page] &&
-      data[page][key] &&
-      data[page][key][lang]
-    ) {
+    if (data[page] && data[page][key] && data[page][key][lang]) {
       element.textContent = data[page][key][lang];
     }
   });
+
+  // меняем select и флаг
+  document.getElementById("lang").value = lang;
+  document.getElementById("langIcon").src = `./image/${lang}.png`;
 }
 
 const langSelect = document.getElementById("lang");
-const langIcon = document.getElementById("langIcon");
 
 if (langSelect) {
   langSelect.addEventListener("change", (e) => {
-    const page = document.body.dataset.page;
+    const selectedLang = e.target.value;
+    const page = document.body.dataset.page || "home";
 
-    // твоя логика
-    loadContent(e.target.value, page);
+    // сохраняем язык
+    localStorage.setItem("siteLang", selectedLang);
 
-    // добавляем только это:
-    langIcon.src = `./image/${e.target.value}.png`;
+    loadContent(selectedLang, page);
   });
 }
+
+// при загрузке страницы
+const savedLang = localStorage.getItem("siteLang") || "ru";
 const page = document.body.dataset.page || "home";
-loadContent("ru", page);
-document.getElementById("langIcon").src = "./image/ru.png";
 
-
-// 
-
+loadContent(savedLang, page);
