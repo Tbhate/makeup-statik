@@ -692,10 +692,7 @@ body {
     margin-left: 44px;
     margin-bottom: 0;
   }
-  .main-text2 {
-    font-size: 66px;
-    margin-left: 46px;
-  }
+  
   .main-text3 {
     position: absolute;
     right: 20px;
@@ -725,17 +722,20 @@ body {
   .main-text4 {
     display: none;
   }
-
+.main-text2 {
+    font-size: 52px;
+    margin-left: 46px;
+  }
   .main-text5 {
-    font-size: 66px;
+    font-size: 52px;
     margin: auto;
     margin-left: 60px;
     transform: translateY(-23px);
   }
   .main-text6 {
-    font-size: 66px;
+    font-size: 42px;
     margin: auto;
-    margin-left: 180px;
+    margin-left: 160px;
     transform: translateY(-43px);
   }
   .main-text7 {
@@ -793,7 +793,7 @@ body {
   .main-button {
     transform: translateY(-100px);
     border-radius: 80px;
-    margin-top: 300px;
+    margin-top: 350px;
     padding-left: 40px;
     height: 100%;
     background-color: #fff;
