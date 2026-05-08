@@ -6,15 +6,41 @@ async function loadContent(lang = "ru", page = "home") {
     const key = element.getAttribute("data-key");
 
     if (data[page] && data[page][key] && data[page][key][lang]) {
-      element.textContent = data[page][key][lang];
+
+      // если input или textarea → placeholder
+      if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
+        element.placeholder = data[page][key][lang];
+
+      // если кнопка submit → value
+      } else if (element.tagName === "INPUT" && element.type === "submit") {
+        element.value = data[page][key][lang];
+
+      // обычный текст
+      } else {
+        element.textContent = data[page][key][lang];
+      }
+
     }
   });
 
-  // меняем select и флаг
-  document.getElementById("lang").value = lang;
-  document.getElementById("langIcon").src = `./image/${lang}.png`;
+  // смена select
+  const langSelect = document.getElementById("lang");
+  if (langSelect) {
+    langSelect.value = lang;
+  }
+
+  // смена флага
+  const langIcon = document.getElementById("langIcon");
+  if (langIcon) {
+    langIcon.src = `./image/${lang}.png`;
+  }
+
+  
+  // язык в body
+    document.body.setAttribute("data-lang", lang);
 }
 
+// обработка смены языка
 const langSelect = document.getElementById("lang");
 
 if (langSelect) {
@@ -29,8 +55,10 @@ if (langSelect) {
   });
 }
 
-// при загрузке страницы
-const savedLang = localStorage.getItem("siteLang") || "ru";
-const page = document.body.dataset.page || "home";
+// загрузка при старте
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLang = localStorage.getItem("siteLang") || "ru";
+  const page = document.body.dataset.page || "home";
 
-loadContent(savedLang, page);
+  loadContent(savedLang, page);
+});

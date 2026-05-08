@@ -38,12 +38,12 @@
     "m2": {
       "ru": "MAKE UP",
       "en": "ARTISTA DE",
-      "pl": "BILDEN"
+      "pl": "MAKE-UP"
     },
     "m3": {
       "ru": "Luxury bridal makeup and hair",
       "en": "Maquillaje y peinado de novia de lujo",
-      "pl": "Luxuriöses Braut-Make-up und Frisur"
+      "pl": "Luxuriöses Make Up- und Haarstyling für Bräute"
     },
     "m4": {
       "ru": "  for high end destination weddings",
@@ -52,23 +52,23 @@
     },
     "m5": {
       "ru": "and  hair",
-      "en": "maquillaje",
-      "pl": "und Haar"
+      "en": "maquillaje y",
+      "pl": "und"
     },
     "m6": {
       "ru": "artist",
-      "en": "y peluquería",
-      "pl": "Artist"
+      "en": "peluquería - Consti",
+      "pl": "HAARSTYLIST"
     },
     "m7": {
       "ru": "and exclusive beauty projects.",
       "en": "y proyectos de belleza exclusivos.",
-      "pl": "und exklusive Schönheitsprojekte"
+      "pl": "für exklusive Hochzeiten im Ausland"
     },
     "m8": {
       "ru": "View all works",
       "en": "Portafolio ",
-      "pl": "Alle Werke anzeigen"
+      "pl": "Portfolio"
     },
     "m9": {
       "ru": "Let’s create a flawless, long-lasting look.",
@@ -86,9 +86,19 @@
       "pl": "Von Bräuten und kreativen Teams aus den USA, Europa und aller Welt vertraut – beheimatet auf Mallorca"
     },
     "b1": {
-      "ru": "Let’s Create ㅤa Look Thatㅤ Feels Like You",
-      "en": "Creamos un look que te haga sentir tú misma",
+      "ru": "Let's do a   ㅤ stylish makeup     look together",
+      "en": "Creamos un ㅤlook que teㅤ haga sentirㅤㅤ tú misma",
       "pl": "Lass uns einen Look kreieren, mit dem du dich wohl fühlst"
+    },
+    "placeholder_email": {
+      "ru": "Your email",
+      "en": "Ihre E-Mail-Adresse",
+      "pl": "Tu correo electrónico"
+    },
+    "placeholder_name": {
+      "ru": "Your name",
+      "en": "Ihr Name",
+      "pl": "Su nombre"
     },
     "b2": {
       "ru": "Fill out the form",
@@ -97,7 +107,7 @@
     },
     "b3": {
       "ru": "Enquire now",
-      "en": "Pregunta ahora",
+      "en": "Pregunta",
       "pl": "Jetzt fragen"
     },
     "f1": {
@@ -246,7 +256,7 @@
     "l3": {
       "ru": "Luxury Bridal Makeup Artist Mallorca | Makeup Artist & Hair Stylist",
       "en": "Maquilladora de novias de lujo en Mallorca | Maquilladora y peluquera",
-      "pl": "Luxus Make Up and Haar Artist"
+      "pl": "Luxus-Brautvisagistin auf Mallorca | Visagistin & Friseurin"
     },
     "l4": {
       "ru": "I am a makeup artist originally from Ukraine, with over 12 years of experience in the beauty industry. I work as a Bridal Makeup Artist in Mallorca, as well as a makeup artist and hair stylist for luxury events, photoshoots, and special occasions.",
@@ -288,6 +298,11 @@
       "en": "Mi objetivo es que te sientas 100 % segura, radiante y elegante, ya seas una novia, una invitada a un evento exclusivo o te encuentres delante de la cámara en una sesión fotográfica en Mallorca.",
       "pl": "Mein Ziel ist es, dass du dich zu 100 % selbstbewusst, strahlend und luxuriös fühlst – ob als Braut, Gast eines exklusiven Events oder vor der Kamera bei einem Shooting auf Mallorca."
     },
+    "swipe": {
+      "ru": "Swipe left/right to view",
+      "en": "Wische nach links/rechts, um die Ansicht zu wechseln",
+      "pl": "Desliza el dedo hacia la izquierda o hacia la derecha para ver"
+    },
     "l12": {
       "ru": "03",
       "en": "03",
@@ -295,18 +310,18 @@
     },
     "l13": {
       "ru": "What",
-      "en": "Lo que",
-      "pl": "Was"
+      "en": "Opiniones",
+      "pl": "Was meine"
     },
     "l14": {
       "ru": "my clients",
-      "en": "opinan mis",
-      "pl": "Kunden"
+      "en": "de  mis",
+      "pl": "Kunden über"
     },
     "l15": {
       "ru": "say about me",
       "en": "clientes",
-      "pl": "Über mich"
+      "pl": "mich sagen"
     },
     "l16": {
       "ru": "Reviews",
@@ -315,7 +330,7 @@
     },
     "ll1": {
       "ru": "about me",
-      "en": "SOBRE MÍ",
+      "en": "Acerca de mÍ",
       "pl": "ÜBER MICH"
     }
   },
@@ -506,12 +521,12 @@
     },
     "s1": {
       "ru": "Service ",
-      "en": "Servicio",
+      "en": "Paquetes ",
       "pl": "Service"
     },
     "s2": {
       "ru": "packages",
-      "en": "paquetes",
+      "en": "de servicios",
       "pl": "pakete"
     },
     "s3": {
@@ -539,6 +554,16 @@
       "en": "Precio 2026",
       "pl": "Preis 2026"
     },
+    "q02": {
+      "ru": "home service",
+      "en": "servicio a domicilio",
+      "pl": "Hausbesuchsservice"
+    },
+    "q03": {
+      "ru": "salon service",
+      "en": "servicio en el salón",
+      "pl": "Hausbesuchsservice"
+    },
     "o01": {
       "ru": "Outcall service",
       "en": "Servicio a domicilio",
@@ -552,7 +577,7 @@
     "p2": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "pp2": {
       "ru": "Outcall service",
@@ -582,7 +607,7 @@
     "p6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "p7": {
       "ru": "400",
@@ -602,12 +627,12 @@
     "p10": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "p11": {
       "ru": "150",
       "en": "150",
-      "pl": "150#"
+      "pl": "150"
     },
     "p12": {
       "ru": "Hairstyle",
@@ -622,7 +647,7 @@
     "p14": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "p15": {
       "ru": "220",
@@ -642,7 +667,7 @@
     "p18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "p19": {
       "ru": "200",
@@ -662,7 +687,7 @@
     "p22": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "p23": {
       "ru": "350",
@@ -682,7 +707,7 @@
     "o2": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "o3": {
       "ru": "200",
@@ -702,7 +727,7 @@
     "o6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "o7": {
       "ru": "300",
@@ -722,7 +747,7 @@
     "o10": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "o11": {
       "ru": "150",
@@ -742,7 +767,7 @@
     "o14": {
      "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "o15": {
       "ru": "230",
@@ -762,7 +787,7 @@
     "o18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "o19": {
       "ru": "150",
@@ -775,19 +800,19 @@
       "pl": "Frisur"
     },
     "o21": {
-      "ru": "100",
-      "en": "100",
-      "pl": "100"
+      "ru": "130",
+      "en": "130",
+      "pl": "130"
     },
     "o22": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "o23": {
-      "ru": "230",
-      "en": "230",
-      "pl": "230"
+      "ru": "270",
+      "en": "270",
+      "pl": "270"
     },
     "o24": {
       "ru": "(makeup and hairstyle)",
@@ -818,7 +843,7 @@
     "w2": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "w3": {
       "ru": "250",
@@ -838,7 +863,7 @@
     "w6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "w7": {
       "ru": "430",
@@ -858,7 +883,7 @@
     "w10": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "w11": {
       "ru": "150",
@@ -878,7 +903,7 @@
     "w14": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "w15": {
       "ru": "230",
@@ -898,7 +923,7 @@
     "w18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "w19": {
       "ru": "200",
@@ -918,7 +943,7 @@
     "w22": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "w23": {
       "ru": "350",
@@ -954,7 +979,7 @@
     "q2": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "q3": {
       "ru": "300",
@@ -974,7 +999,7 @@
     "q6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "q7": {
       "ru": "500",
@@ -994,12 +1019,12 @@
     "q10": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "q11": {
-      "ru": "150",
-      "en": "150",
-      "pl": "150"
+      "ru": "250",
+      "en": "250",
+      "pl": "250"
     },
     "q12": {
       "ru": "Hairstyle",
@@ -1014,7 +1039,7 @@
     "q14": {
      "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "q15": {
       "ru": "250",
@@ -1034,7 +1059,7 @@
     "q18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Make-up"
+      "pl": "Bilden"
     },
     "q19": {
       "ru": "250",
@@ -1054,7 +1079,7 @@
     "q22": {
      "ru": "Set",
       "en": "Conjunto",
-      "pl": "Full styling"
+      "pl": "Satz"
     },
     "q23": {
       "ru": "450",
