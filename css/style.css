@@ -1250,6 +1250,12 @@ body[data-lang="en"] .main-text6 {
   color: #272323;
 }
 
+  body[data-lang="en"] .title2 {
+    width: 900px;
+    top: 120px;
+  }
+ 
+
 .subtitle {
   font-weight: 600;
   font-size: 17px;
@@ -1492,6 +1498,11 @@ body[data-lang="en"] .main-text6 {
     padding-right: 10px;
     top: 40px;
   }
+   body[data-lang="en"] .title2 {
+    width: 260px;
+    top: 45px;
+  }
+ 
   .price {
     padding: 0 20px;
   }
