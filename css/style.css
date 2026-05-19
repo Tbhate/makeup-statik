@@ -531,7 +531,7 @@ body {
   text-transform: uppercase;
 }
 body[data-lang="en"] .main-text {
-  transform: translateX(-264px);
+  transform: translateX(-140px);
 }
 body[data-lang="pl"] .main-text {
   transform: translateX(-160px);
@@ -718,7 +718,7 @@ body[data-lang="pl"] .main-text7 {
     top: 170px;
   }
   .mainsection {
-    height: 730px;
+    height: 800px;
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -897,11 +897,12 @@ body[data-lang="pl"] .main-text7 {
     padding-left: 40px;
     height: 100%;
     background-color: #fff;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 140px;
+    padding-bottom: 27px;
+    margin-bottom: 14px;
   }
   .main-right div {
-    transform: translateY(-40px);
+    transform: translateY(-60px);
 
     width: 170px;
     height: 160px;
@@ -1504,7 +1505,7 @@ body[data-lang="en"] .title2 {
     width: 170px;
   }
   .list-title2 {
-    left: 30%;
+    left: 50%;
     font-size: 12px;
     padding: 15px 45px;
     min-width: 0;
@@ -1587,6 +1588,12 @@ body[data-lang="en"] .title2 {
   .list-subtitle p {
     font-size: 12px;
     width: 50%;
+  }
+  body[data-lang="pl"] .de-text {
+    font-size: 18px;
+  }
+  body[data-lang="pl"] .main-text3{
+    max-width: 110px;
   }
 }
 /* --------------
