@@ -32,13 +32,13 @@
     },
     "m1": {
       "ru": "Mallorca luxury",
-      "en": "Lujo en Mallorca",
+      "en": "Mallorca luxury",
       "pl": "Luxus auf Mallorca"
     },
     "m2": {
       "ru": "MAKE UP",
       "en": "ARTISTA DE",
-      "pl": "MAKE-UP"
+      "pl": "MAKE UP"
     },
     "m3": {
       "ru": "Luxury bridal makeup and hair",
@@ -52,13 +52,13 @@
     },
     "m5": {
       "ru": "and  hair",
-      "en": "maquillaje y",
+      "en": "maquillaje",
       "pl": "und"
     },
     "m6": {
       "ru": "artist",
-      "en": "peluquería - Consti",
-      "pl": "HAARSTYLIST"
+      "en": "y peluquería",
+      "pl": "haar artist"
     },
     "m7": {
       "ru": "and exclusive beauty projects.",
@@ -87,22 +87,22 @@
     },
     "b1": {
       "ru": "Let's do a    stylish makeup     look together",
-      "en": "Creamos un look que te haga sentir tú misma",
+      "en": "Creamos Artista de maquillaje y peluquería",
       "pl": "Lass uns einen Look kreieren, mit dem du dich wohl fühlst"
     },
     "placeholder_email": {
       "ru": "Your email",
-      "en": "Tu correo electrónico",
+      "en": "Correo electrónico",
       "pl": "Ihre E-Mail-Adresse"
     },
     "placeholder_name": {
       "ru": "Your name",
-      "en": "Su nombre",
+      "en": "Nombre",
       "pl": "Ihr Name"
     },
     "b2": {
       "ru": "Fill out the form",
-      "en": "Rellene el formulario ",
+      "en": "Rellena el formulario",
       "pl": "Füllen Sie das Formular aus"
     },
     "b3": {
@@ -256,7 +256,7 @@
     "l3": {
       "ru": "Luxury Bridal Makeup Artist Mallorca | Makeup Artist & Hair Stylist",
       "en": "Maquilladora de novias de lujo en Mallorca | Maquilladora y peluquera",
-      "pl": "Luxus-Brautvisagistin auf Mallorca | Visagistin & Friseurin"
+      "pl": "Luxus Make Up und Haar Artist"
     },
     "l4": {
       "ru": "I am a makeup artist originally from Ukraine, with over 12 years of experience in the beauty industry. I work as a Bridal Makeup Artist in Mallorca, as well as a makeup artist and hair stylist for luxury events, photoshoots, and special occasions.",
@@ -544,10 +544,25 @@
       "en": "Precio 2027",
       "pl": "Preis 2027"
     },
+     "ww02": {
+      "ru": "Outcall service",
+      "en": "servicio a domicilio",
+      "pl": "Outcall service"
+    },
+     "ww03": {
+      "ru": "Service in salon ( Palma)",
+      "en": "servicio en el salón (Palma)",
+      "pl": "Service in salon ( Palma)"
+    },
+    "ww01": {
+      "ru": "Service vor Ort",
+      "en": "servicio a domicilio",
+      "pl": "Service vor Ort"
+    },
     "w01": {
-      "ru": "Service in salon (Palma)",
-      "en": "Servicio en salón (Palma)",
-      "pl": "Service im Salon (Palma)"
+      "ru": "Service im Studio (Palma )",
+      "en": "servicio en el salón (Palma)",
+      "pl": "Service im Studio (Palma )"
     },
     "q01": {
       "ru": "Price 2026",
@@ -577,7 +592,7 @@
     "p2": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "pp2": {
       "ru": "Outcall service",
@@ -607,7 +622,7 @@
     "p6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "p7": {
       "ru": "400",
@@ -627,7 +642,7 @@
     "p10": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "p11": {
       "ru": "150",
@@ -647,7 +662,7 @@
     "p14": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "p15": {
       "ru": "220",
@@ -667,7 +682,7 @@
     "p18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "p19": {
       "ru": "200",
@@ -687,7 +702,7 @@
     "p22": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "p23": {
       "ru": "350",
@@ -707,7 +722,7 @@
     "o2": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "o3": {
       "ru": "200",
@@ -727,7 +742,7 @@
     "o6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "o7": {
       "ru": "300",
@@ -747,7 +762,7 @@
     "o10": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "o11": {
       "ru": "150",
@@ -767,7 +782,7 @@
     "o14": {
      "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "o15": {
       "ru": "230",
@@ -787,7 +802,7 @@
     "o18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "o19": {
       "ru": "150",
@@ -807,7 +822,7 @@
     "o22": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "o23": {
       "ru": "270",
@@ -831,7 +846,7 @@
     },
     "o27": {
       "ru": "Enquire now",
-      "en": "Enquire now",
+      "en": "Solicita información ahora",
       "pl": "Jetzt anfragen"
     },
 
@@ -843,7 +858,7 @@
     "w2": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "w3": {
       "ru": "250",
@@ -863,7 +878,7 @@
     "w6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "w7": {
       "ru": "430",
@@ -883,7 +898,7 @@
     "w10": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "w11": {
       "ru": "150",
@@ -903,7 +918,7 @@
     "w14": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "w15": {
       "ru": "230",
@@ -923,7 +938,7 @@
     "w18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "w19": {
       "ru": "200",
@@ -943,7 +958,7 @@
     "w22": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "w23": {
       "ru": "350",
@@ -967,7 +982,7 @@
     },
     "w27": {
       "ru": "Enquire now",
-      "en": "Pregunta ahora",
+      "en": "Solicita información ahora",
       "pl": "Jetzt anfragen"
     },
 
@@ -979,7 +994,7 @@
     "q2": {
      "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "q3": {
       "ru": "300",
@@ -999,7 +1014,7 @@
     "q6": {
       "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "q7": {
       "ru": "500",
@@ -1019,7 +1034,7 @@
     "q10": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "q11": {
       "ru": "250",
@@ -1039,7 +1054,7 @@
     "q14": {
      "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "q15": {
       "ru": "250",
@@ -1059,7 +1074,7 @@
     "q18": {
       "ru": "Makeup",
       "en": "Maquillaje",
-      "pl": "Bilden"
+      "pl": "Make Up"
     },
     "q19": {
       "ru": "250",
@@ -1079,7 +1094,7 @@
     "q22": {
      "ru": "Set",
       "en": "Conjunto",
-      "pl": "Satz"
+      "pl": "Full Styling"
     },
     "q23": {
       "ru": "450",
