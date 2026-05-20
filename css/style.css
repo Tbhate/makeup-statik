@@ -308,6 +308,7 @@ body {
   transform: scale(1);
 }
 
+
 @media (max-width: 768px) {
   .header-list {
     display: none;
@@ -634,6 +635,9 @@ body[data-lang="pl"] .main-text7 {
 .main-button {
   display: flex;
 }
+.main-button-text{
+  display: none;
+}
 .main-button button {
   display: flex;
   gap: 10px;
@@ -718,7 +722,7 @@ body[data-lang="pl"] .main-text7 {
     top: 170px;
   }
   .mainsection {
-    height: 800px;
+    height: 900px;
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -892,25 +896,53 @@ body[data-lang="pl"] .main-text7 {
   }
   .main-button {
     transform: translateY(-100px);
-    border-radius: 80px;
-    margin-top: 350px;
-    padding-left: 40px;
+    border-radius: 26px;
+    margin-top: 320px;
+    padding-left: 50px;
     height: 100%;
-    background-color: #fff;
-    padding-top: 140px;
-    padding-bottom: 27px;
+    background-color: #FEFAFA;
+    padding-top: 285px;
+    padding-bottom: 45px;
     margin-bottom: 14px;
   }
+    body[data-lang="pl"] .main-button {
+    margin-top: 356px;
+  }
+   body[data-lang="en"] .main-button {
+    margin-top: 396px;
+  }
+  .main-button-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 11px;
+    max-width: 380px;
+    height: 131px;
+    text-align: center;
+
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%) ;
+    top: 629px;
+    z-index: 5;
+    background-color: #BC9A75;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+  }
   .main-right div {
-    transform: translateY(-60px);
+    transform: translateY(-236px);
 
     width: 170px;
     height: 160px;
     padding: 10px;
     border-radius: 20px;
   }
+
+
   .main-text8 {
-    transform: translateY(-135px);
+    transform: translateY(-145px);
     font-size: 12px;
     margin: auto;
     color: #524d4d;
@@ -1917,6 +1949,10 @@ body[data-lang="en"] .title2 {
   border-radius: 12px; /* как на примере */
   display: block;
 }
+.mbox{
+  display: none;
+}
+
 .card1-num {
   position: absolute;
   background-color: #000;
@@ -2085,6 +2121,12 @@ body[data-lang="en"] .title2 {
   display: none;
 }
 @media (max-width: 768px) {
+  .mbos{
+  display: none;
+}
+  .mbox{
+  display: block;
+}
   .swipe-text {
     display: block;
     position: absolute;
@@ -2205,13 +2247,13 @@ body[data-lang="en"] .title2 {
   }
   .about-me {
     margin-top: 250px;
-    margin-bottom: 1220px;
+    margin-bottom: 1720px;
     height: 400px;
     border-radius: 999px;
     background-color: #fefafa65;
   }
   body[data-lang="en"]  .about-me {
-    margin-bottom: 1370px;
+    margin-bottom: 1920px;
   }
   
   .card1 {
@@ -2223,7 +2265,7 @@ body[data-lang="en"] .title2 {
     margin: auto;
   }
   .card2 {
-    top: 450px;
+    top: 720px;
     bottom: auto;
     width: 380px;
     left: 0;
@@ -2231,11 +2273,14 @@ body[data-lang="en"] .title2 {
     margin: auto;
   }
    body[data-lang="en"] .card2{
-    top: 465px;
+    top: 730px;
+   }
+    body[data-lang="pl"] .card2{
+    top: 700px;
    }
 
   .card3 {
-    top: 1065px;
+    top: 1565px;
     bottom: auto;
     left: 0;
     right: 0;
@@ -2243,10 +2288,10 @@ body[data-lang="en"] .title2 {
     width: 380px;
   }
   body[data-lang="en"]  .card3 {
-    top: 1170px;
+    top: 1695px;
   }
    body[data-lang="ru"]  .card3 {
-    top: 1090px;
+    top: 1625px;
   }
   .card1-num {
     bottom: auto;
