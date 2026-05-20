@@ -546,23 +546,23 @@
     },
      "ww02": {
       "ru": "Outcall service",
-      "en": "servicio a domicilio",
-      "pl": "Outcall service"
+      "en": "Servicio a domicilio",
+      "pl": "Service vor Ort"
     },
      "ww03": {
-      "ru": "Service in salon ( Palma)",
-      "en": "servicio en el salón (Palma)",
-      "pl": "Service in salon ( Palma)"
+      "ru": "Service in the salon ( Palma )",
+      "en": "Servicio en el salón",
+      "pl": "Service im Studio ( Palma ) "
     },
     "ww01": {
       "ru": "Outcall service",
-      "en": "servicio a domicilio",
-      "pl": "Outcall service"
+      "en": "Servicio a domicilio",
+      "pl": "Service vor Ort"
     },
     "w01": {
-      "ru": "Service in salon ( Palma)",
-      "en": "servicio en el salón (Palma)",
-      "pl": "Service in salon ( Palma)"
+      "ru": "Service in the salon ( Palma )",
+      "en": "Servicio en el salón",
+      "pl": "Service im Studio ( Palma ) "
     },
     "q01": {
       "ru": "Price 2026",

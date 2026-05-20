@@ -1551,6 +1551,11 @@ body[data-lang="en"] .title2 {
     width: 260px;
     top: 45px;
   }
+  body[data-lang="pl"] .title2 {
+    width: 140px;
+    top: 37px;
+    font-size: 50px;
+  }
 
   .price {
     padding: 0 20px;
@@ -2205,6 +2210,10 @@ body[data-lang="en"] .title2 {
     border-radius: 999px;
     background-color: #fefafa65;
   }
+  body[data-lang="en"]  .about-me {
+    margin-bottom: 1370px;
+  }
+  
   .card1 {
     z-index: 2;
     top: 100px;
@@ -2221,6 +2230,10 @@ body[data-lang="en"] .title2 {
     right: 0;
     margin: auto;
   }
+   body[data-lang="en"] .card2{
+    top: 465px;
+   }
+
   .card3 {
     top: 1065px;
     bottom: auto;
@@ -2228,6 +2241,12 @@ body[data-lang="en"] .title2 {
     right: 0;
     margin: auto;
     width: 380px;
+  }
+  body[data-lang="en"]  .card3 {
+    top: 1170px;
+  }
+   body[data-lang="ru"]  .card3 {
+    top: 1090px;
   }
   .card1-num {
     bottom: auto;
