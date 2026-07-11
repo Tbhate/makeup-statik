@@ -1,10 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://katimaestro.com/</loc>
+    <loc>https://katimaestro.com/en/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/" />
   </url>
-
-
+  <url>
+    <loc>https://katimaestro.com/es/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/en/service/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/service/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/service/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/service/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/service/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/es/service/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/service/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/service/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/service/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/service/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/service/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/service/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/service/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/service/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/service/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/en/portfolio/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/portfolio/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/es/portfolio/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/portfolio/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/portfolio/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/portfolio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/portfolio/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/en/about/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/about/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/es/about/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/about/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/about/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/about/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/en/gallery/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/gallery/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/gallery/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/gallery/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/gallery/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/es/gallery/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/gallery/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/gallery/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/gallery/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/gallery/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/gallery/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/gallery/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/gallery/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/gallery/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/gallery/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/en/offer/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/offer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/offer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/offer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/offer/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/es/offer/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/offer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/offer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/offer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/offer/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/offer/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/offer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/offer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/offer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/offer/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/en/privacy-policy/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/privacy-policy/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/es/privacy-policy/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/privacy-policy/" />
+  </url>
+  <url>
+    <loc>https://katimaestro.com/de/privacy-policy/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://katimaestro.com/en/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://katimaestro.com/es/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://katimaestro.com/de/privacy-policy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://katimaestro.com/en/privacy-policy/" />
+  </url>
 </urlset>
