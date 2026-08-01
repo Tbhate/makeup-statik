@@ -1017,6 +1017,8 @@ body[data-lang="pl"] .main-text7 {
   font-family: "Cormorant Garamond", serif;
   font-size: 46px;
   letter-spacing: -0.05em;
+  font-weight: 500;
+  color: #2c2c2c;
   text-transform: uppercase;
   line-height: 0.95;
 }
