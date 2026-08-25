@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# --- Custom 404 page ---
+ErrorDocument 404 /404.html
+
 # --- Canonical host: force https:// and the bare (non-www) katimaestro.com domain ---
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.katimaestro\.com$ [NC]
