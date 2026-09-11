@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Admin — Kati Maestro</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    background: #f3f4f6;
+    color: #222;
+    margin: 0;
+    padding: 32px 16px 80px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .sub { color: #666; font-size: 14px; margin-bottom: 24px; }
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  }
+  .card h2 { font-size: 16px; margin: 0 0 16px; }
+  label { display: block; font-size: 13px; color: #555; margin-bottom: 4px; margin-top: 14px; }
+  label:first-of-type { margin-top: 0; }
+  input[type="text"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background: #fff;
+  }
+  textarea { resize: vertical; min-height: 44px; }
+  .row3 { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .btn-primary { background: #272323; color: #fff; }
+  .btn-primary:hover { background: #453f3f; }
+  .btn-secondary { background: #e9e5df; color: #272323; }
+  .btn-secondary:hover { background: #ddd6cb; }
+  .btn-primary:disabled, .btn-secondary:disabled { opacity: 0.5; cursor: not-allowed; }
+  .field-item {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+  }
+  .field-key {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #999;
+    margin-bottom: 6px;
+  }
+  .status {
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-top: 14px;
+    display: none;
+  }
+  .status.show { display: block; }
+  .status.ok { background: #e5f7ea; color: #1e7a3d; }
+  .status.err { background: #fdecec; color: #b3261e; }
+  .status.info { background: #eaf1fb; color: #1a5fb4; }
+  .hint { font-size: 12px; color: #888; margin-top: 6px; }
+  #fieldsArea { display: none; }
+  #fieldsArea.show { display: block; }
+  .top-actions { display: flex; gap: 10px; margin-top: 18px; }
+  .muted-link { font-size: 12px; color: #999; cursor: pointer; text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Редактор текстов сайта</h1>
+  <p class="sub">Правит реальные HTML-файлы в вашем GitHub-репозитории. Сохранение = обычный коммит → сработает ваш существующий деплой.</p>
+
+  <div class="card" id="setupCard">
+    <h2>1. Подключение к GitHub</h2>
+    <div class="row3">
+      <div>
+        <label for="ghOwner">Владелец репозитория (username/org)</label>
+        <input type="text" id="ghOwner" placeholder="Tbhate" />
+      </div>
+      <div>
+        <label for="ghRepo">Название репозитория</label>
+        <input type="text" id="ghRepo" placeholder="makeup-statik" />
+      </div>
+      <div>
+        <label for="ghBranch">Ветка</label>
+        <input type="text" id="ghBranch" placeholder="main" value="main" />
+      </div>
+    </div>
+    <label for="ghToken">Personal Access Token (хранится только в этом браузере)</label>
+    <input type="password" id="ghToken" placeholder="github_pat_..." autocomplete="off" />
+    <div class="hint">
+      Fine-grained token, доступ только к этому репозиторию, права: Contents → Read and write.
+      Токен нигде не отправляется, кроме api.github.com, и сохраняется в localStorage только на этом устройстве.
+    </div>
+    <div class="top-actions">
+      <button class="btn-primary" id="saveConfigBtn">Сохранить подключение</button>
+      <span class="muted-link" id="forgetBtn">Забыть токен на этом устройстве</span>
+    </div>
+    <div class="status" id="configStatus"></div>
+  </div>
+
+  <div class="card">
+    <h2>2. Выбор страницы</h2>
+    <div class="row2">
+      <div>
+        <label for="pageSelect">Страница</label>
+        <select id="pageSelect"></select>
+      </div>
+      <div style="display:flex; align-items:flex-end;">
+        <button class="btn-primary" id="loadBtn" style="width:100%;">Загрузить текст со страницы</button>
+      </div>
+    </div>
+    <div class="status" id="loadStatus"></div>
+  </div>
+
+  <div class="card" id="fieldsArea">
+    <h2>3. Редактирование</h2>
+    <label>Title (вкладка браузера / сниппет в поиске)</label>
+    <input type="text" id="fieldTitle" />
+
+    <label>Meta description (сниппет в поиске)</label>
+    <textarea id="fieldDescription" rows="2"></textarea>
+
+    <div id="fieldsList" style="margin-top:18px;"></div>
+
+    <div class="top-actions">
+      <button class="btn-primary" id="saveBtn">Сохранить и закоммитить в GitHub</button>
+    </div>
+    <div class="status" id="saveStatus"></div>
+  </div>
+</div>
+
+<script>
+const DEFAULT_OWNER = "Tbhate";
+const DEFAULT_REPO = "makeup-statik";
+
+const PAGES = [
+  ["en/index.html", "EN — Главная"],
+  ["en/about/index.html", "EN — About"],
+  ["en/service/index.html", "EN — Services & Pricing"],
+  ["en/portfolio/index.html", "EN — Portfolio"],
+  ["en/gallery/index.html", "EN — Gallery"],
+  ["en/offer/index.html", "EN — Offer"],
+  ["en/privacy-policy/index.html", "EN — Privacy Policy"],
+  ["es/index.html", "ES — Главная"],
+  ["es/about/index.html", "ES — About"],
+  ["es/service/index.html", "ES — Services & Pricing"],
+  ["es/portfolio/index.html", "ES — Portfolio"],
+  ["es/gallery/index.html", "ES — Gallery"],
+  ["es/offer/index.html", "ES — Offer"],
+  ["es/privacy-policy/index.html", "ES — Privacy Policy"],
+  ["de/index.html", "DE — Главная"],
+  ["de/about/index.html", "DE — About"],
+  ["de/service/index.html", "DE — Services & Pricing"],
+  ["de/portfolio/index.html", "DE — Portfolio"],
+  ["de/gallery/index.html", "DE — Gallery"],
+  ["de/offer/index.html", "DE — Offer"],
+  ["de/privacy-policy/index.html", "DE — Privacy Policy"],
+];
+
+const $ = (id) => document.getElementById(id);
+let currentSha = null;
+let currentPath = null;
+let currentDoc = null;
+
+function showStatus(el, type, text) {
+  el.className = "status show " + type;
+  el.textContent = text;
+}
+
+function loadConfig() {
+  return {
+    owner: localStorage.getItem("cms_owner") || DEFAULT_OWNER,
+    repo: localStorage.getItem("cms_repo") || DEFAULT_REPO,
+    branch: localStorage.getItem("cms_branch") || "main",
+    token: localStorage.getItem("cms_token") || "",
+  };
+}
+
+function initUI() {
+  const cfg = loadConfig();
+  $("ghOwner").value = cfg.owner;
+  $("ghRepo").value = cfg.repo;
+  $("ghBranch").value = cfg.branch;
+  $("ghToken").value = cfg.token;
+
+  const sel = $("pageSelect");
+  PAGES.forEach(([path, label]) => {
+    const opt = document.createElement("option");
+    opt.value = path;
+    opt.textContent = label;
+    sel.appendChild(opt);
+  });
+}
+
+$("saveConfigBtn").addEventListener("click", () => {
+  localStorage.setItem("cms_owner", $("ghOwner").value.trim() || DEFAULT_OWNER);
+  localStorage.setItem("cms_repo", $("ghRepo").value.trim() || DEFAULT_REPO);
+  localStorage.setItem("cms_branch", $("ghBranch").value.trim() || "main");
+  localStorage.setItem("cms_token", $("ghToken").value.trim());
+  showStatus($("configStatus"), "ok", "Сохранено в этом браузере.");
+});
+
+$("forgetBtn").addEventListener("click", () => {
+  ["cms_owner", "cms_repo", "cms_branch", "cms_token"].forEach((k) => localStorage.removeItem(k));
+  $("ghOwner").value = DEFAULT_OWNER;
+  $("ghRepo").value = DEFAULT_REPO;
+  $("ghBranch").value = "main";
+  $("ghToken").value = "";
+  showStatus($("configStatus"), "info", "Токен удалён из этого браузера.");
+});
+
+function b64DecodeUnicode(str) {
+  const binary = atob(str.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, (c) => c.charCodeAt(0));
+  return new TextDecoder("utf-8").decode(bytes);
+}
+
+function b64EncodeUnicode(str) {
+  const bytes = new TextEncoder().encode(str);
+  let binary = "";
+  bytes.forEach((b) => (binary += String.fromCharCode(b)));
+  return btoa(binary);
+}
+
+async function ghRequest(path, options = {}) {
+  const cfg = loadConfig();
+  if (!cfg.owner || !cfg.repo || !cfg.token) {
+    throw new Error("Сначала заполните и сохраните подключение к GitHub (шаг 1).");
+  }
+  const url = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  const res = await fetch(url, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${cfg.token}`,
+      Accept: "application/vnd.github+json",
+      ...(options.headers || {}),
+    },
+  });
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`GitHub API ${res.status}: ${body.slice(0, 300)}`);
+  }
+  return res.json();
+}
+
+$("loadBtn").addEventListener("click", async () => {
+  const path = $("pageSelect").value;
+  const cfg = loadConfig();
+  $("loadStatus").className = "status show info";
+  $("loadStatus").textContent = "Загрузка...";
+  $("fieldsArea").classList.remove("show");
+  try {
+    const data = await ghRequest(`${path}?ref=${encodeURIComponent(cfg.branch)}`);
+    currentSha = data.sha;
+    currentPath = path;
+    const html = b64DecodeUnicode(data.content);
+    currentDoc = new DOMParser().parseFromString(html, "text/html");
+
+    $("fieldTitle").value = currentDoc.title || "";
+    const descEl = currentDoc.querySelector('meta[name="description"]');
+    $("fieldDescription").value = descEl ? descEl.getAttribute("content") || "" : "";
+
+    const list = $("fieldsList");
+    list.innerHTML = "";
+    const keyed = currentDoc.querySelectorAll("[data-key]");
+    keyed.forEach((el, i) => {
+      const key = el.getAttribute("data-key");
+      const text = el.textContent.trim();
+      const item = document.createElement("div");
+      item.className = "field-item";
+      const isLong = text.length > 70;
+      item.innerHTML = `
+        <div class="field-key">data-key="${key}"</div>
+        ${isLong
+          ? `<textarea rows="3" data-idx="${i}"></textarea>`
+          : `<input type="text" data-idx="${i}" />`}
+      `;
+      list.appendChild(item);
+      const input = item.querySelector("[data-idx]");
+      input.value = text;
+    });
+    window._keyedEls = keyed;
+
+    $("fieldsArea").classList.add("show");
+    showStatus($("loadStatus"), "ok", `Загружено: ${path} (найдено полей: ${keyed.length})`);
+  } catch (e) {
+    showStatus($("loadStatus"), "err", e.message);
+  }
+});
+
+$("saveBtn").addEventListener("click", async () => {
+  if (!currentDoc || !currentPath) return;
+  try {
+    currentDoc.title = $("fieldTitle").value;
+    const descEl = currentDoc.querySelector('meta[name="description"]');
+    if (descEl) descEl.setAttribute("content", $("fieldDescription").value);
+
+    const ogTitle = currentDoc.querySelector('meta[property="og:title"]');
+    const ogDesc = currentDoc.querySelector('meta[property="og:description"]');
+    const twTitle = currentDoc.querySelector('meta[name="twitter:title"]');
+    const twDesc = currentDoc.querySelector('meta[name="twitter:description"]');
+    if (ogTitle) ogTitle.setAttribute("content", $("fieldTitle").value);
+    if (ogDesc) ogDesc.setAttribute("content", $("fieldDescription").value);
+    if (twTitle) twTitle.setAttribute("content", $("fieldTitle").value);
+    if (twDesc) twDesc.setAttribute("content", $("fieldDescription").value);
+
+    document.querySelectorAll("#fieldsList [data-idx]").forEach((input) => {
+      const idx = Number(input.getAttribute("data-idx"));
+      const el = window._keyedEls[idx];
+      if (el) el.textContent = input.value;
+    });
+
+    const newHtml = "<!doctype html>\n" + currentDoc.documentElement.outerHTML;
+    const cfg = loadConfig();
+
+    const res = await ghRequest(currentPath, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        message: `Content edit via admin panel: ${currentPath}`,
+        content: b64EncodeUnicode(newHtml),
+        sha: currentSha,
+        branch: cfg.branch,
+      }),
+    });
+
+    currentSha = res.content.sha;
+    showStatus($("saveStatus"), "ok", "Сохранено и закоммичено в GitHub. Деплой запустится по вашему обычному пайплайну.");
+  } catch (e) {
+    showStatus($("saveStatus"), "err", e.message + " — если ошибка про sha/409, нажмите «Загрузить» ещё раз (файл изменился) и внесите правки заново.");
+  }
+});
+
+initUI();
+</script>
+</body>
+</html>
