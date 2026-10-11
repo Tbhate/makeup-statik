@@ -23,21 +23,6 @@ RewriteRule ^privacypolity\.html$ /en/privacy-policy/ [R=301,L]
 # --- Directory index for the clean /lang/page/ URLs ---
 DirectoryIndex index.html
 
-# --- Keep the admin panel out of search results ---
-<IfModule mod_headers.c>
-  <LocationMatch "^/admin/">
-    Header set X-Robots-Tag "noindex, nofollow"
-  </LocationMatch>
-</IfModule>
-
-# --- Password-protect the admin panel (uncomment after creating .htpasswd — see chat instructions) ---
-# <LocationMatch "^/admin/">
-#   AuthType Basic
-#   AuthName "Restricted"
-#   AuthUserFile /home/USERNAME/.htpasswd
-#   Require valid-user
-# </LocationMatch>
-
 # --- Compression ---
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
